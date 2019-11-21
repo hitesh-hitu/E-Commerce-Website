@@ -1,0 +1,12 @@
+
+
+/* Clear floats after image containers */
+.row {
+  position:relative;
+  margin:30px;
+  width:33.33%;
+  
+  content: "";
+  clear: both;
+  display: table;
+}
